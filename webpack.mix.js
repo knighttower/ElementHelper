@@ -8,6 +8,18 @@ mix.webpackConfig({
     
     resolve: {
         modules: ['node_modules', path.resolve(__dirname, 'src')],
+        extensions: ['.ts', '.tsx', '.js']
     },
+    
+     module: {
+       rules: [
+         {
+           test: /\.tsx?$/,
+           loader: 'ts-loader',
+           exclude: /node_modules/
+         }
+       ]
+     },
+   
     stats: 'errors-only',
 }).disableNotifications();
