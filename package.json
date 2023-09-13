@@ -1,9 +1,10 @@
 {
     "name": "@knighttower/element-helper",
-    "version": "1.0.3",
-    "main": "index.js",
+    "version": "1.0.5",
+    "main": "src/ElementHelper.js",
     "jsdeliver": "dist/ElementHelper.js",
     "unpkg": "dist/ElementHelper.js",
+    "module": "dist/ElementHelper.js",
     "browser": "dist/ElementHelper.js",
     "license": "MIT",
     "description": "ElementHelper is a JavaScript class that adds extra functionality to interact with DOM elements. This class is part of a larger project and can be imported from the @knighttower/adaptive package.",
@@ -27,7 +28,8 @@
     },
     "scripts": {
         "test": "vitest",
-        "dev": "mix"
+        "dev": "mix",
+        "build": "mix --production"
     },
     "devDependencies": {
         "laravel-mix": "^6.0.49",
