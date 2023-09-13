@@ -13,7 +13,7 @@ import DomObserver from '@knighttower/js-dom-observer';
  * @example new ElementHelper('elementSelector', domElement|window|document)
  *
  */
-export default class ElementHelper {
+class ElementHelper {
     /**
      * Constructor
      * @param {String|Object} selector
@@ -144,3 +144,5 @@ export default class ElementHelper {
  * @private
  * @todo enhance to extend the prototype like https://stackoverflow.com/questions/779880/in-javascript-can-you-extend-the-dom
  */
+
+export {ElementHelper, ElementHelper as default};

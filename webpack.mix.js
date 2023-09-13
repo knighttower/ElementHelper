@@ -2,24 +2,15 @@ const mix = require('laravel-mix');
 const path = require('path');
 const fs = require('fs');
 
-mix.js('src/ElementHelper.js', 'dist/ElementHelper.js');
-
-mix.webpackConfig({
-    
+mix.js('src/ElementHelper.js', 'dist/ElementHelper.js')
+.setPublicPath('dist')
+.webpackConfig({
     resolve: {
-        modules: ['node_modules', path.resolve(__dirname, 'src')],
-        extensions: ['.ts', '.tsx', '.js']
+        modules: ['node_modules', path.resolve(__dirname, 'src')]
     },
-    
-     module: {
-       rules: [
-         {
-           test: /\.tsx?$/,
-           loader: 'ts-loader',
-           exclude: /node_modules/
-         }
-       ]
-     },
-   
+    output: {
+        library: 'ElementHelper',
+        libraryTarget: 'window',
+    },
     stats: 'errors-only',
 }).disableNotifications();

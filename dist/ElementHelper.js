@@ -202,6 +202,7 @@ var __webpack_exports__ = {};
   \******************************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   ElementHelper: () => (/* binding */ ElementHelper),
 /* harmony export */   "default": () => (/* binding */ ElementHelper)
 /* harmony export */ });
 /* harmony import */ var _knighttower_js_dom_observer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @knighttower/js-dom-observer */ "./node_modules/@knighttower/js-dom-observer/dist/DomObserver.js");
@@ -369,5 +370,6 @@ var ElementHelper = /*#__PURE__*/function () {
 
 })();
 
+window.ElementHelper = __webpack_exports__;
 /******/ })()
 ;
