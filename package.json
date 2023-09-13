@@ -1,11 +1,7 @@
 {
     "name": "@knighttower/element-helper",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "main": "src/ElementHelper.js",
-    "jsdeliver": "dist/ElementHelper.js",
-    "unpkg": "dist/ElementHelper.js",
-    "module": "src/ElementHelper.js",
-    "browser": "dist/ElementHelper.js",
     "license": "MIT",
     "description": "ElementHelper is a JavaScript class that adds extra functionality to interact with DOM elements. This class is part of a larger project and can be imported from the @knighttower/adaptive package.",
     "homepage": "https://github.com/knighttower/ElementHelper",
