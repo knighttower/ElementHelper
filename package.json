@@ -1,6 +1,6 @@
 {
     "name": "@knighttower/element-helper",
-    "version": "1.0.9",
+    "version": "1.0.10",
     "main": "src/ElementHelper.js",
     "module": "src/ElementHelper.js",
     "unpkg": "dist/ElementHelper.js",
@@ -36,6 +36,6 @@
         "laravel-mix": "^6.0.49"
     },
     "dependencies": {
-        "@knighttower/js-dom-observer": "^1.0.5"
+        "@knighttower/js-dom-observer": "^1.0.6"
     }
 }
