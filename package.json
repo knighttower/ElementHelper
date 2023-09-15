@@ -1,6 +1,6 @@
 {
     "name": "@knighttower/element-helper",
-    "version": "1.0.10",
+    "version": "1.0.11",
     "main": "src/ElementHelper.js",
     "module": "src/ElementHelper.js",
     "unpkg": "dist/ElementHelper.js",
